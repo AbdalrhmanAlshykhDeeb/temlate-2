@@ -1,0 +1,20 @@
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    @media(min-width: $min-small){
+        width: 750px;
+    }
+    @media(min-width: $min-medium){
+        width: 970px;
+    }
+    @media(min-width: $min-larg){
+        width: 1170px;
+    }
+}
+
+%padding{
+    padding-top: $section-padding;
+    padding-bottom: $section-padding;
+}

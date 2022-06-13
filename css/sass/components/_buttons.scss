@@ -1,0 +1,65 @@
+.button-more{
+    background-color: $main-color;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    text-transform: uppercase;
+    border-radius: $radius-border;
+}
+
+.button-video{
+    background-color: black;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    border-radius: $radius-border;
+}
+
+.button-pricing{
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid $main-color;
+    width: fit-content;
+    margin: 30px auto;
+    border-radius: $radius-border;
+}
+
+.button-contact-us{
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    background-color: $main-color;
+    color: white;
+    padding: 15px 30px;
+    border-radius: $radius-border;
+}
+
+.button-subscribe{
+    width: 130px;
+    background-color: $main-color;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-left: none;
+    border-radius: 0px $radius-border $radius-border 0px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button-form{
+    display: flex;
+    margin-inline-end: auto;
+    background-color: $main-color;
+    color: white;
+    padding:20px;
+    border: none;
+    border-radius: $radius-border;
+    cursor: pointer;
+    @media (max-width: $max-mobile){
+        margin: auto;
+    }
+}
